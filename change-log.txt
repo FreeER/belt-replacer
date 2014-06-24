@@ -1,0 +1,11 @@
+v0.0.1
+    initial release
+v0.0.2
+    fixed bug with gui event being improperly triggered by other mod(s) :)
+    made replacer slightly less likely to skip past belts (which should help it follow belts better, especially on turns)
+    replacer will now return to belt chest and wait when out of belts
+    fixed bug that replacing a belt with items on it would 'freeze' the items
+    known issues:
+        replacer gets easily confused by close belts
+        replacer sometimes misses a turned belt, which can cause backup issues if items are currently on the belt...
+        'done' replacers return to chest and then start wandering...

@@ -1,0 +1,9 @@
+{
+	"name":"belt-replacer",
+	"author":"FreeER",
+	"version":"0.0.2",
+	"title":"Belt Replacer",
+	"description":"Adds an entity to upgrade belts.",
+    "dependencies": ["base"]
+}
+
